@@ -2,11 +2,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function Header() {
-
-    const router = useRouter()
+    const router = useRouter();
 
     return (
-        <header className="flex items-center justify-between h-20 max-w-[1200px] mx-auto">
+        <header className="flex items-center justify-between h-20 portfolio--container flex-col gap-5 pt-4 lg:flex-row lg:gap-0 lg:pt-0">
             <div className="logo">
                 <svg
                     width="146"
@@ -27,10 +26,50 @@ export default function Header() {
             </div>
             <nav className="font-consolata font-bold text-xl text-primary-white">
                 <ul className="flex items-center gap-16">
-                    <Link href="/"><li className={router.pathname === "/" ? "text-primary-yellow" : "text-primary-white hover:text-primary-yellow"}>About Me</li></Link>
-                    <Link href="/skills"><li className={router.pathname === "/skills" ? "text-primary-yellow" : "text-primary-white hover:text-primary-yellow"}>Skills</li></Link>
-                    <Link href="/projects"><li className={router.pathname === "/projects" ? "text-primary-yellow" : "text-primary-white hover:text-primary-yellow"}>Pet-Projects</li></Link>
-                    <Link href="/contacts"><li className={router.pathname === "/contacts" ? "text-primary-yellow" : "text-primary-white hover:text-primary-yellow"}>Contacts</li></Link>
+                    <Link href="/">
+                        <li
+                            className={
+                                router.pathname === "/"
+                                    ? "text-primary-yellow"
+                                    : "text-primary-white hover:text-primary-yellow"
+                            }
+                        >
+                            About Me
+                        </li>
+                    </Link>
+                    <Link href="/skills">
+                        <li
+                            className={
+                                router.pathname === "/skills"
+                                    ? "text-primary-yellow"
+                                    : "text-primary-white hover:text-primary-yellow"
+                            }
+                        >
+                            Skills
+                        </li>
+                    </Link>
+                    <Link href="/projects">
+                        <li
+                            className={
+                                router.pathname === "/projects"
+                                    ? "text-primary-yellow"
+                                    : "text-primary-white hover:text-primary-yellow"
+                            }
+                        >
+                            Pet-Projects
+                        </li>
+                    </Link>
+                    <Link href="/contacts">
+                        <li
+                            className={
+                                router.pathname === "/contacts"
+                                    ? "text-primary-yellow"
+                                    : "text-primary-white hover:text-primary-yellow"
+                            }
+                        >
+                            Contacts
+                        </li>
+                    </Link>
                 </ul>
             </nav>
         </header>

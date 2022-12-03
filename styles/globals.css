@@ -1,5 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;900&display=swap");
+    body {
+        background: #1b1a17;
+    }
+}
+
+@layer components {
+    .portfolio--container {
+        @apply container xl:max-w-[1200px] mx-auto;
+    }
+}

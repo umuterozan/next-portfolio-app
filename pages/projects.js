@@ -1,7 +1,4 @@
-import Layout from "../components/Layout";
-import Header from "../components/Header";
-import Main from "../components/Main";
-import Footer from "../components/Footer";
+import { Layout, Header, Main, Footer } from "../components";
 
 export default function Projects() {
     return (
@@ -9,12 +6,12 @@ export default function Projects() {
             <Header />
 
             <Main>
-                <section className="font-consolata mt-16">
+                <section className="font-consolata mt-32 lg:mt-16">
                     <h1 className="font-bold text-3xl text-primary-yellow text-center">
                         My Works
                     </h1>
-                    <div className="mt-14 flex items-center justify-between gap-5">
-                        <div className="bg-card-portfolio bg-cover bg-no-repeat bg-center">
+                    <div className="mt-14 flex items-center justify-between gap-5 flex-col  lg:flex-row">
+                        <div className="bg-card-portfolio bg-cover bg-no-repeat bg-center max-w-[386px]">
                             <div className="bg-primary-gray h-full w-full opacity-95 p-[82px] text-center">
                                 <h1 className="font-bold text-3xl text-primary-yellow">
                                     News Blog
@@ -32,7 +29,7 @@ export default function Projects() {
                             </div>
                         </div>
 
-                        <div className="bg-card-portfolio bg-cover bg-no-repeat bg-center cursor-default">
+                        <div className="bg-card-portfolio bg-cover bg-no-repeat bg-center cursor-default max-w-[386px]">
                             <div className="bg-primary-gray h-full w-full opacity-0 p-[82px] text-center">
                                 <h1 className="font-bold text-3xl text-primary-yellow">
                                     News Blog
@@ -50,7 +47,7 @@ export default function Projects() {
                             </div>
                         </div>
 
-                        <div className="bg-card-portfolio bg-cover bg-no-repeat bg-center">
+                        <div className="bg-card-portfolio bg-cover bg-no-repeat bg-center max-w-[386px]">
                             <div className="bg-primary-gray h-full w-full opacity-95 p-[82px] text-center">
                                 <h1 className="font-bold text-3xl text-primary-yellow">
                                     News Blog

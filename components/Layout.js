@@ -12,12 +12,6 @@ export default function Layout({ title, description = "Next Portfolio App", chil
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <style jsx global>{`
-                body {
-                    background: #1B1A17;
-                }
-            `}</style>
-
             {children}
         </>
     );
