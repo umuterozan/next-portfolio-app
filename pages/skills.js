@@ -10,8 +10,8 @@ export default function Skills() {
                     <h1 className="font-consolata font-bold text-3xl text-primary-yellow text-center">
                         My Skills
                     </h1>
-                    <div className="grid grid-cols-3 gap-4 lg:gap-0 lg:flex items-center justify-between mt-14">
-                        <div className="bg-primary-gray px-10 py-14 rounded-lg flex flex-col items-center">
+                    <div className="flex flex-col lg:flex-row gap-4 sm:grid sm:grid-cols-3 sm:gap-4 lg:gap-0 lg:flex lg:items-center lg:justify-between mt-14">
+                        <div className="bg-primary-gray px-10 py-14 rounded-lg flex gap-20 sm:gap-0 sm:flex-col items-center">
                             <div>
                                 <svg
                                     width="114"
@@ -33,7 +33,7 @@ export default function Skills() {
                             </div>
                         </div>
 
-                        <div className="bg-primary-gray px-10 py-14 rounded-lg flex flex-col items-center">
+                        <div className="bg-primary-gray px-10 py-14 rounded-lg flex gap-20 sm:flex-col items-center">
                             <div>
                                 <svg
                                     width="114"
@@ -55,7 +55,7 @@ export default function Skills() {
                             </div>
                         </div>
 
-                        <div className="bg-primary-gray px-10 py-14 rounded-lg flex flex-col items-center">
+                        <div className="bg-primary-gray px-10 py-14 rounded-lg flex gap-20 sm:flex-col items-center">
                             <div>
                                 <svg
                                     width="128"
@@ -77,7 +77,7 @@ export default function Skills() {
                             </div>
                         </div>
 
-                        <div className="bg-primary-gray px-10 py-14 rounded-lg flex flex-col items-center">
+                        <div className="bg-primary-gray px-10 py-14 rounded-lg flex gap-20 sm:flex-col items-center">
                             <div>
                                 <svg
                                     width="128"
@@ -99,7 +99,7 @@ export default function Skills() {
                             </div>
                         </div>
 
-                        <div className="bg-primary-gray px-10 py-14 rounded-lg flex flex-col items-center">
+                        <div className="bg-primary-gray px-10 py-14 rounded-lg flex gap-20 sm:flex-col items-center">
                             <div>
                                 <svg
                                     width="129"

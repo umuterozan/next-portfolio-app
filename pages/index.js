@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section className="flex items-center justify-center gap-5 mt-32">
+                <section className="flex items-center justify-center gap-5 mt-32 flex-col sm:flex-row">
                     <div>
                         <svg
                             width="102"
@@ -58,7 +58,7 @@ export default function Home() {
                             />
                         </svg>
                     </div>
-                    <div className="font-consolata text-primary-white font-normal text-2xl leading-6 max-w-[904px]">
+                    <div className="font-consolata text-primary-white font-normal text-2xl leading-6 max-w-[383px] sm:max-w-[904px]">
                         <p>
                             A few years ago, I became interested in developing
                             websites and interfaces. Since then, I have been

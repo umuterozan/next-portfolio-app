@@ -20,7 +20,7 @@ export default function Footer() {
                         />
                     </svg>
                 </div>
-                <div className="text-primary-white font-normal text-xl leading-5 max-w-[339px] lg:max-w-[213px] mt-5">
+                <div className="text-primary-white font-normal text-xl leading-5 max-w-[363px] lg:max-w-[213px] mt-5">
                     <p>
                         If you liked my work and you need me, I'm ready to talk
                         to you.
@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
             <div className="text-primary-yellow">
                 <h1 className="font-bold text-3xl text-center lg:text-left">Contacts</h1>
-                <div className="grid grid-cols-2 gap-10 mt-5">
+                <div className="grid sm:grid-cols-2 gap-10 mt-5">
                     <div className="flex items-center gap-5">
                         <div>
                             <svg
