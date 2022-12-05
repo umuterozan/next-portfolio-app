@@ -11,6 +11,6 @@
 
 @layer components {
     .portfolio--container {
-        @apply container xl:max-w-[1200px] mx-auto;
+        @apply container xl:max-w-[1200px] mx-auto px-4 sm:px-0;
     }
 }

@@ -14,7 +14,7 @@ export default function Header() {
 
     return (
         <header className="flex items-center justify-between h-20 portfolio--container flex-col gap-5 pt-4 lg:flex-row lg:gap-0 lg:pt-0">
-            <div className="flex items-center justify-between w-full px-4 sm:px-0 sm:block sm:w-fit">
+            <div className="flex items-center justify-between w-full sm:px-0 sm:block sm:w-fit">
                 <div className="sm:block">
                     <svg
                         width="146"
@@ -67,7 +67,7 @@ export default function Header() {
                     )}
                 </div>
             </div>
-            <nav className="font-consolata font-bold text-xl text-primary-white bg-primary-dark z-0 w-full py-48 sm:py-0 sm:w-fit sm:bg-transparent hidden sm:block">
+            <nav className="font-consolata font-bold text-2xl sm:text-xl text-primary-white bg-primary-dark z-10 w-full py-48 sm:py-0 sm:w-fit sm:bg-transparent hidden sm:block">
                 <ul className="flex items-center gap-16 flex-col sm:flex-row">
                     <Link href="/">
                         <li

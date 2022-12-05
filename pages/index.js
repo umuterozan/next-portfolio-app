@@ -8,19 +8,19 @@ export default function Home() {
             <Main>
                 <section className="flex items-center justify-between mt-32 flex-col gap-16 lg:flex-row lg:gap-0 lg:mt-16">
                     <div className="font-consolata max-w-[448px]">
-                        <h1 className="text-primary-yellow font-black text-6xl">
+                        <h1 className="text-primary-yellow font-black text-4xl sm:text-6xl">
                             Alexey Borisov
                         </h1>
-                        <h2 className="text-primary-white font-bold text-4xl mt-5">
+                        <h2 className="text-primary-white font-bold text-3xl sm:text-4xl mt-5">
                             Frontend Developer
                         </h2>
-                        <p className="text-primary-white font-normal text-xl leading-5 mt-5">
+                        <p className="text-primary-white font-normal text-2xl sm:text-xl leading-6 sm:leading-5 mt-5">
                             Frontend developer looking for ideas and projects
                             for himself and others
                         </p>
                     </div>
 
-                    <div>
+                    <div className="hidden sm:block">
                         <svg
                             width="608"
                             height="567"
